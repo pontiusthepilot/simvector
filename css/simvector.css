@@ -1,0 +1,127 @@
+html, body {
+  height:100%;
+}
+
+body {
+  background-image: url(../resources/tileable-leather-patterns-2.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+#map_canvas {
+  height: 90%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+     -moz-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+       -o-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+#map_cotrols {
+  height: 450px;
+  width: 120px;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.4);
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.map_control_btn {
+  font-size: 0.75em;
+  width: 80%;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  opacity: 0.7;
+  background-color: #0cf;
+}
+
+#locationspannel {
+  width: 85%;
+  height: 452px;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.4);
+  position: fixed;
+  bottom: 50px;
+  left: 5%;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#waypointsGridWrapper {
+  width: 87%;
+  height: 410px;
+  display: inline-block;
+}
+
+#waypointsGridControls {
+  vertical-align: top;
+  height: 452px;
+  width: 13%;
+  display: inline-block;
+}
+
+.waypointsGrid_control_btn {
+  font-size: 0.75em;
+  width: 80%;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  opacity: 0.7;
+  background-color: #0cf;
+}
+
+.map_control_btn:hover, .waypointsGrid_control_btn:hover {
+  opacity: 1.0;
+  background-color: #0cf;
+}
+
+.ui-widget-header,.ui-state-default, ui-button {
+  background:#0cf;
+  border: 1px solid #0cf;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.dialog_style {
+  border-radius: 10px;
+}
+
+.dialog_header_style {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.search_term{
+  width: 368px;
+}
+
+#waypoint_dialog {
+  position: relative;
+}
+
+.wdDialogElement {
+  margin: 0 10px 10px 0;
+}
+
+.wdDialogElementLabel {
+  display: inline-block;
+  width: 120px;
+}
+
+.mef sup {
+  font-size: 60%;
+}

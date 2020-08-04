@@ -1,0 +1,56 @@
+mapOptions {
+	center {
+		lat:
+		lng:
+	},
+	zoom: 10,
+	disableDefaultUI: false,
+	scrollwheel: true,
+	draggable: true,
+	mapTypeId: google.maps.MyTypeId.ROADMAP,
+	maxZoom: 11,
+	mimZoom: 9,
+	zoomControlOPtions: {
+		position: google.maps.ControlPosition.LEFT_BOTTOM,
+		style: google.maps.ZoomControlStyle.DEFAULT
+	},
+	panControlOptions: {
+		google.maps.ControlPosition.LEFT_BOTTOM
+	}
+}
+
+var defaultText = 'Enter a placename'
+$('#address_dialog_addess')
+	.val('Enter a placename')
+	.focus(function(){
+		if ($(this).val() == defaultText) {
+			$(this).val('');
+		}
+	})
+	.blur(function(defaultText) {
+		if (empty($this.val()) {
+			$(this).val()
+		}
+	});
+
+	:contains selector
+
+
+$(function ($) {
+	var deferred = new $.Deferred();
+	$('submit-btn').click(function() {
+		var movieName = ('#movie-name').val();
+		if (moviename = '') {
+			deferred.reject();
+		}else{
+			dferred.resolve(movieName);
+		}
+
+		deferred.fail(function() {
+			console.log('you have chosen not to watch a movie')
+		});
+		deferred.done(function(movieName) {
+			console.log('you have chosen to watch '+movieName)
+		});
+	})
+}

@@ -1,0 +1,312 @@
+{
+    "latitude": 51,
+    "longitude": -4,
+    "mef":
+    {
+        "sw": "07",
+        "se": "13",
+        "nw": "20",
+        "ne": "15"
+    }
+}
+{
+    "latitude": 51,
+    "longitude": -5, 
+    "mef":
+    {
+        "nw": "03",
+        "ne": "08"
+    }
+}
+{
+    "latitude": 51,
+    "longitude": -7,
+    "mef":
+    {
+        "sw": "03",
+        "nw": "11"
+    }
+}
+{
+    "latitude": 51,
+    "longitude": -8,
+    "mef":
+    {
+        "se": "03",
+        "nw": "23",
+        "ne": "13"
+    }
+}
+{
+    "latitude": 51,
+    "longitude": -9,
+    "mef":
+    {
+        "sw": "03",
+        "nw": "11"
+    }
+}
+{
+    "latitude": 51,
+    "longitude": -10,
+    "mef":
+    {
+        "nw": "12",
+        "ne": "31"
+    }
+}
+{
+    "latitude": 52,
+    "longitude": -4,
+    "mef":
+    {
+        "sw": "14",
+        "se": "18",
+        "nw": "15",
+        "ne": "18"
+    }
+}
+{
+    "latitude": 52,
+    "longitude": -5,
+    "mef":
+    {
+        "se": "09",
+        "nw": "07"
+    }
+}
+{
+    "latitude": 52,
+    "longitude": -7,
+    "mef":
+    {
+        "sw": "23",
+        "se": "18",
+        "nw": "20",
+        "ne": "17"
+    },
+}
+{
+    "latitude": 52,
+    "longitude": -8,
+    "mef":
+    {
+        "sw": "26",
+        "se": "35",
+        "nw": "21",
+        "ne": "27"
+    }
+}
+{
+    "latitude": 52,
+    "longitude": -9,
+    "mef":
+    {
+        "sw": "38",
+        "se": "38",
+        "nw": "13",
+        "ne": "17"
+    }
+}
+{
+    "latitude": 52,
+    "longitude": -10,
+    "mef":
+    {
+        "sw": "13",
+        "se": "36"
+    }
+}
+{
+    "latitude": 53,
+    "longitude": -4,
+    "mef":
+    {
+        "sw": "10",
+        "se": "38"
+    }
+}
+{
+    "latitude": 53,
+    "longitude": -5,
+    "mef":
+    {
+        "sw": "07"
+    }
+}
+{
+    "latitude": 53,
+    "longitude": -6,
+    "mef":
+    {
+        "sw": "26",
+        "se": "55",
+        "nw": "15",
+        "ne": "12"
+    }
+}
+{
+    "latitude": 53,
+    "longitude": -7,
+    "mef":
+    {
+        "sw": "22",
+        "se": "21",
+        "nw": "15",
+        "ne": "15"
+    }
+}
+{
+    "latitude": 53,
+    "longitude": -8,
+    "mef":
+    {
+        "sw": "16",
+        "se": "15",
+        "nw": "12",
+        "ne": "14"
+    }
+}
+{
+    "latitude": 53,
+    "longitude": -9,
+    "mef":
+    {
+        "sw": "27",
+        "se": "17",
+        "nw": "31",
+        "ne": "27"
+    }
+}
+{
+    "latitude": 53,
+    "longitude": -10,
+    "mef":
+    {
+        "se": "11",
+        "ne": "31"
+    }
+}
+{
+    "latitude": 54,
+    "longitude": -4,
+    "mef":
+    {
+        "sw": "19",
+        "se": "23",
+        "nw": "11",
+        "ne": "26"
+    }
+}
+{
+    "latitude": 54,
+    "longitude": -5,
+    "mef":
+    {
+        "sw": "19",
+        "se": "23",
+        "nw": "11",
+        "ne": "26"
+    }
+}
+{
+    "latitude": 54,
+    "longitude": -6,
+    "mef":
+    {
+        "sw": "15",
+        "se": "27",
+        "nw": "24",
+        "ne": "19"
+    }
+}
+{
+    "latitude": 54,
+    "longitude": -7,
+    "mef":
+    {
+        "sw": "26",
+        "se": "28",
+        "nw": "23",
+        "ne": "25"
+    }
+}
+{
+    "latitude": 54,
+    "longitude": -8,
+    "mef":
+    {
+        "sw": "23",
+        "se": "26",
+        "nw": "24",
+        "ne": "26"
+    }
+}
+{
+    "latitude": 54,
+    "longitude": -9,
+    "mef":
+    {
+        "sw": "27",
+        "se": "30"
+    }
+}
+{
+    "latitude": 54,
+    "longitude": -10,
+    "mef":
+    {
+        "se": "26"
+    }
+}
+{
+    "latitude": 55,
+    "longitude": -4,
+    "mef":
+    {
+        "sw": "28",
+        "se": "30",
+        "nw": "20",
+        "ne": "20"
+    }
+}
+{
+    "latitude": 55,
+    "longitude": -5,
+    "mef":
+    {
+        "sw": "17",
+        "se": "18",
+        "nw": "27",
+        "ne": "31"
+    },
+}
+{
+    "latitude": 55,
+    "longitude": -6,
+    "mef":
+    {
+        "sw": "15",
+        "se": "21",
+        "nw": "05",
+        "ne": "28"
+    }
+}
+{
+    "latitude": 55,
+    "longitude": -7,
+    "mef":
+    {
+        "sw": "26",
+        "se": "24"
+    },
+}
+{
+    "latitude": 55,
+    "longitude": -8,
+    "mef":
+    {
+        "sw": "11",
+        "se": "28"
+    }
+}

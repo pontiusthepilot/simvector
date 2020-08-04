@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Simvector</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" crossorigin="anonymous"
+          href="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.2/css/ui.jqgrid.css"
+          integrity="sha384-9ZPVKjSZdvFFsTXTQ4ZQg8jxr0CKC9lywgddI595l9hIdU/BUC4vO2GjfW7iYBEZ">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/simvector.css">
+    <link  rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Google Maps and Places API -->
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCRWbchsebovJLyC_cDeaU9x1LgyumtVa0&libraries=places"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+            integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+            crossorigin="anonymous"></script>
+
+    <script crossorigin="anonymous"
+            src="https://cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.15.2/jquery.jqgrid.src.js"
+            integrity="sha384-JviluGGB7/zCq2iTI9ftIevFCIVV1rCs1vBKWv6B6Dr4KOJkX436A1xeUDEuxj9o"></script>
+
+    <script type="text/javascript" src="js/filesaver/FileSaver.js"></script>
+
+    <script type="text/javascript" src="js/contextmenu/code.js"></script>
+
+    <script type="text/javascript" src="js/graticule/graticule.js"></script>
+
+    <script type="text/javascript" src="js/mef/mef.js"></script>
+
+  	<script type="text/javascript" src="js/xmlScribe.js"></script>
+    <script type="text/javascript" src="js/simvector.js"></script>
+    <script type="text/javascript" src="js/mathematic.js"></script>
+    <script type="text/javascript" src="js/geographic.js"></script>
+
+</head>
+<body>
+
+    <!-- map div container -->
+    <div id="map_canvas"></div>
+
+    <div id="map_cotrols">
+        <button type="button" name="gohome" class='map_control_btn'>My Location</button>
+        <button type="button" name="address" class='map_control_btn'>Go to address</button>
+        <button type="button" name="lat_long" class='map_control_btn'>Go to lat/long</button>
+        <button type="button" name="show_data" class='map_control_btn'>Show data</button>
+        <input  type="file" id="file-input" name="load_data" class='map_control_btn' hidden/>
+        <button type="button" name="load_wpts" class='map_control_btn'>Load flightplan</button>
+
+    </div>
+
+    <div id="address_dialog">
+        <p>Enter an address or placename you wish to locate.</p>
+        <input type="text" class='search_term' id='address_dialog_addess' />
+    </div>
+
+    <div id="lat_long_dialog">
+        <p>Enter the coordinates of the place you wish to locate in decimal format. I.e. 49.792895, 9.939265</p>
+        <input type="text" class='search_term' id='lat_long_dialog_coords' />
+    </div>
+
+    <div id="locationspannel">
+        <div id=waypointsGridWrapper>
+            <table id="waypointsGrid"></table>
+        </div><div id="waypointsGridControls">
+            <button class="waypointsGrid_control_btn" id="waypointsGridSave">Save flightplan</button>
+            <button class="waypointsGrid_control_btn" id="waypointsGridHide">Hide flightplan</button>
+        </div>
+    </div>
+
+    <div id="waypoint_dialog">
+        <div>
+            <label class="wdDialogElementLabel" for="wdWaypoint">Waypoint</label>
+            <input class="wdDialogElement" type="text" id='wdWaypoint' />
+            <label class="wdDialogElementLabel" for="wdDescription">Description</label>
+            <select class="wdDialogElement" type="text" id='wdDescription'>
+            </select>
+        </div>
+        <div>
+            <label class="wdDialogElementLabel" for="wdPassingAltitude">Passing Altitude</label>
+            <input class="wdDialogElement" type="text" id='wdPassingAltitude' />
+            <label class="wdDialogElementLabel" for="wdGroundSpeed">Ground Speed</label>
+            <input class="wdDialogElement" type="text" id='wdGroundSpeed' />
+        </div>
+        <div>
+            <label class="wdDialogElementLabel" for="wdNotes">Notes</label>
+            <input class="wdDialogElement" type="text" id='wdNotes' />
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
